@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://motionarray.imgix.net/preview-82967-gZ6ArOJAiM-low_0011.jpg?w=660&q=60&fit=max&auto=format);
+    font-family:'Lucida Sans';
+}
+
+.content {
+    background: rgb(158, 211, 219);
+    opacity: .75;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.info-container {
+    width: 50%;
+}
+
+.info-title {
+    font-size: 3em;
+    margin: 20px;
+    text-align: center;
+}
+
+.info-instructions {
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+    margin: 20px;
+}
+
+.game-container {
+    width: 75%;
+    font-size: 2em;
+}
+
+.game-crystals {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 20%;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+}
+
+
+.game-text-wrapper {
+    display: flex;
+}
+
+.game-scores-right-container {
+    width: 50%;
+}
+
+.game-score-container {
+    width: 50%;
+    margin: 20px;
+
+}
+
+.game-target-score-container {
+    margin: 20px;
+}
+
+.game-win-loss-tracker-container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href=reset.css>
+    <link rel="stylesheet" type="text/css" href=style.css>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+</head> 
+<body>
+    <div class="content">
+        <div class = "info-container">
+            <div class = "info-title">
+                <br><br><br>
+                <h1>Crystals Collector</h1>
+            </div>
+            <div class = "info-instructions">
+                <p>There are four choices of crystals that will get you
+
+                   to your target score. Use your wit to reach the proper 
+                   
+                   score, if go over you will lose. Test your skills and 
+
+                   happy gaming.
+                 
+                    
+                    
+                </p>
+
+            </div>
+                
+        </div>
+        <div class = "game-container">
+            <div class = "game-crystals">
+                <button id = "crystal-red"><img src="red.webp"></button>
+                <button id = "crystal-blue"><img src="blue.webp"></button>
+                <button id = "crystal-yellow"><img src="yellow.webp"></button>
+                <button id = "crystal-clear"><img src="clear.webp"></button>
+            </div>
+            <div class ="game-text-wrapper">
+                    <div class = "game-score-container">
+                        <p>
+                            Your Score Is:
+                            </p>
+                            <div id = "game-score">
+                                score
+                            </div>
+                    </div>
+                    <div class = "game-scores-right-container">
+                            <div class = "game-target-score-container">
+                                    <p>Target Score:</p>
+                                    <div id = "game-target-score">
+                                        goal
+                                    </div>
+                            </div>
+                            <div class = "game-win-loss-tracker-container">
+                                <div class ="game-wins-container">
+                                    <p>Wins:</p>
+                                    <div id = "wins"> W </div>
+                                </div>    
+                                <div class = "game-losses-container">
+                                    <p>Losses:</p>
+                                    <div id = "losses"> L </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+            </div>
+            
+        </div>
+    </div>
+    <script src=game.js> </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
